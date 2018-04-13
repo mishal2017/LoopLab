@@ -44,3 +44,13 @@ body{
 
 
 }
+
+
+
+#about-section .fa{
+    color:snow;
+    background: #23272b;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 4px;
+}
