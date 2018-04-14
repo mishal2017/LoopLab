@@ -40,7 +40,7 @@
                       <a class=" nav-link"  href="#service-head-section">Services</a>
                   </li>
                   <li class="nav-item">
-                      <a class= "nav-link"  href="#contact-head-section">Contact</a>
+                      <a class= "nav-link"  href="#share-head-section">Share</a>
                   </li>
               </ul>
             </div>
@@ -171,7 +171,7 @@
        <div class="row">
           <div class="col-md-6">
 
-              <img src="assets/picture/image5.jpg" class="img-fluid mb-4 rounded-circle" alt="">
+              <img src="assets/picture/image5.jpg" class="img-fluid mb-4 rounded-circle" alt="" width="500px">
           </div>
           <div class="col-md-6">
               <h3>More about us</h3>
@@ -282,14 +282,14 @@
     </div>
 </section>
 
-<!--create header-->
-<section id="create-head-section" class="bg-light text-muted py-4">
+<!--share header-->
+<section id="share-head-section" class="bg-light text-muted py-4">
  <div class="container">
 
 <div class="row">
    <div class="col text-center">
       <div class="py-5">
-      <h1 class="display-4">Create</h1>
+      <h1 class="display-4">Share</h1>
        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -309,9 +309,9 @@
 
 </section>
 
-<!--create section-->
+<!--share section-->
 
-<section id="create-section" class="py-3">
+<section id="share-section" class="py-3">
     <div class="container">
        <div class="row">
            <div class="col-md-6">
@@ -319,7 +319,7 @@
                <img src="assets/picture/image6.jpg" class="img-fluid mb-3 rounded-circle" alt="" width="500px">
            </div>
           <div class="col-md-6">
-              <h3>Create your ideas with us</h3>
+              <h3>Share your ideas with us</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
@@ -356,7 +356,63 @@
     </div>
 </section>
 
+<!--footer main-->
+<footer class="bg-dark">
 
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col text-center">
+            <div class="py-4">
+            <h1 class="h3" >LoopLab</h1>
+                <p >Copyright&copy;2018</p>
+                  <button class="btn btn-outline-secondary" data-toggle="modal" data-target="#contactModal">Contact us</button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+</footer>
+
+<!--modal conatact-->
+
+<div class="modal fade text-info" id="contactModal">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+           <div class="modal-header">
+               <h5 class="modal-title" id="modalCoantactTitle">Contact us</h5>
+               <button class="close" data-dismiss="modal"><span>&times;</span></button>
+           </div>
+            <div class="modal-body">
+                <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" placeholder="Name" onfocus="this.placeholder">
+                </div>
+                    <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" placeholder="E-mail" onfocus="this.placeholder">
+                </div>
+                    <div class="form-group">
+                    <label for="name">Message</label>
+                   <textarea class="form-control"></textarea>
+                </div>
+
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn-primary btn-block">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
 
     </body>
 </html>
